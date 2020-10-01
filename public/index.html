@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practise no 1</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="./ionicons-2.0.1/css/ionicons.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container-fluid container-change" id="color-black">
+      <h1 class="h1 primary-heading">Todo-List</h1>
+    </div>
+    <div class="container top-margin">
+      <div class="row">
+        <div class="col-9">
+          <input type="text" class="input-text" placeholder="Enter the tasks" />
+        </div>
+        <div class="col-3">
+          <button class="myBtn btn-myColor--green">Add Task</button>
+        </div>
+      </div>
+    </div>
+    <div class="container top-margin">
+      <div class="row">
+        <div class="col-6">
+          <div class="border-task border--red">
+            <h2 class="h2 secondary-heading secondary-heading--red">
+              <span>Incomplete Task</span>
+            </h2>
+            <div class="incomplete-list">
+              <!-- yeh item incomplete ka item hai -->
+              <!-- <div class="item-list item-list--red clearFix" id="incomp-2">
+                            <h3 class="h3 teritary-heading color--red">
+                                My name is Muhammad Salman Asif 
+                                <div class="date">(23-feb-2017)</div>
+                            </h3>
+                            <div class="icons">
+                                <button class="icon-1 icon-color-red" id="incomp-del">
+                                    <span class="ion-close-round"></span>
+                                </button>
+                                <button class="icon-2 icon-color-green" id="incomp-add">
+                                    <span class="ion-checkmark"></span>
+                                </button>
+                            </div>
+                        </div> -->
+              <!-- yahan tak -->
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="border-task border--green">
+            <h2 class="secondary-heading secondary-heading--green">
+              <span>Complete Task</span>
+            </h2>
+            <div class="complete-list">
+              <!-- yeh item complete ka item hai -->
+              <!-- <div class="item-list item-list--green clearFix" id="comp-0">
+                            <h3 class="teritary-heading color--green">
+                                My name is Muhammad Salman Asif <sub>(23-feb-2017)</sub>
+                            </h3>
+                            <div class="icons color--green">
+                                <button class="icon-1 icon-color-green" id="comp-succ">
+                                    <span class="ion-checkmark"></span>
+                                </button>
+                                <button class="icon-2 icon-color-red" id="comp-del">
+                                    <span class="ion-close-round"><span>
+                                </button>
+                            </div>
+                        </div> -->
+              <!-- yahna tak -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./app.js"></script>
+</html>
